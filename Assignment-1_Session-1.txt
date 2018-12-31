@@ -1,0 +1,24 @@
+Assignment-1_Session-1
+
+Problem Statement
+
+1. Say True or False for the below statements:
+* Prescriptive Analytics used to predict the future outcomes?
+Answer- False
+* Base R packages installed automatically?
+Answer- True
+
+2. What is Recycling of elements in a vector?
+Answer- Recycling of vectors means when we perform an operation (like addition, multiplication, subtraction, etc.) 
+between two or more different vectors having some elements and the length of element stored in it differ from each other, 
+then the elements of the smaller vector repeat itself to match the length of the larger vector and then perform the operation.
+
+3. Give an example of recycling of elements.
+Answer-
+Example:
+X <- c(1, 2, 3, 4)
+Y <- c(1, 2, 3)
+X * Y
+Output- c(1, 4, 9, 4)
+As the length of Y vector was smaller, to match with the X vector it repeated itself and match the length with X 
+vector as Y <- c(1, 2, 3, 1).
